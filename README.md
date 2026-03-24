@@ -1,44 +1,46 @@
-# Git Aliases Pro Setup
+# Alias para Git
 
-A curated collection of Git aliases designed to improve productivity, readability, and workflow efficiency when working in the terminal.
+Configuración avanzada de alias de Git diseñada para optimizar la productividad, mejorar la legibilidad del historial y simplificar el flujo de trabajo en terminal.
 
-This configuration provides a faster, cleaner, and more intuitive Git experience for daily development.
-
----
-
-## Overview
-
-These aliases simplify common Git commands and introduce a powerful log visualization for better commit tracking.
-
-They are globally configured and available across all repositories.
+Este conjunto de alias permite trabajar de forma más rápida, consistente y eficiente en cualquier repositorio.
 
 ---
 
-## Installation
+## Descripción General
 
-Run the following commands in your terminal to register the aliases globally:
+Los alias definidos en este repositorio tienen como objetivo:
+
+- Reducir la cantidad de comandos repetitivos
+- Mejorar la visualización del historial de commits
+- Simplificar operaciones comunes
+- Mantener un flujo de trabajo limpio y consistente
+
+Todos los alias se configuran a nivel global, por lo que estarán disponibles en todos los proyectos.
+
+---
+
+## Instalación
+
+Ejecuta los siguientes comandos en tu terminal:
 
 ```bash
-# Log visualization
+# Visualización avanzada del historial
 git config --global alias.lg "log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all"
 
-# Status (short format)
-git config --global alias.s status --short
-
-# Status (branch + tracking)
+# Estado del repositorio (modo compacto)
 git config --global alias.s "status -sb"
 
-# Branch management
+# Gestión de ramas
 git config --global alias.b branch
 
-# Commit with message
+# Commit con mensaje
 git config --global alias.co "commit -m"
 
-# Add all changes
+# Añadir todos los cambios
 git config --global alias.a "add ."
 
-# Checkout
+# Cambio de rama
 git config --global alias.c checkout
 
-# Merge
+# Fusión de ramas
 git config --global alias.m merge
