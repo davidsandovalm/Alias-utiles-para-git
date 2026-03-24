@@ -6,3 +6,9 @@ git config --global alias.s status --short
 
 # Alternativa útil de status
 git config --global alias.s status -sb
+
+# Para Branch
+git config --global alias.b branch
+
+# Para "Commit -m"
+git config --global alias.c "commit -m"
