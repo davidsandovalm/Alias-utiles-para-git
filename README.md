@@ -18,3 +18,6 @@ git config --global alias.a "add ."
 
 # Para Checkout
 git config --global alias.c "checkout"
+
+# Para Merge
+git config --global alias.m merge
