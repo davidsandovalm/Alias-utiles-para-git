@@ -11,7 +11,10 @@ git config --global alias.s status -sb
 git config --global alias.b branch
 
 # Para "Commit -m"
-git config --global alias.c "commit -m"
+git config --global alias.co "commit -m"
 
 # Para add .
 git config --global alias.a "add ."
+
+# Para Checkout
+git config --global alias.c "checkout"
