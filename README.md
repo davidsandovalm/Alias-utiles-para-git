@@ -12,3 +12,6 @@ git config --global alias.b branch
 
 # Para "Commit -m"
 git config --global alias.c "commit -m"
+
+# Para add .
+git config --global alias.a "add ."
