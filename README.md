@@ -34,7 +34,7 @@ git config --global alias.s "status -sb"
 git config --global alias.b branch
 
 # Commit con mensaje
-git config --global alias.co "commit -m"
+git config --global alias.com "commit -m"
 
 # Añadir todos los cambios
 git config --global alias.a "add ."
